@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  go-blockchain:
+    build: .
+    container_name: go-blockchain
+    volumes:
+      - .:/go/src
